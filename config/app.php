@@ -150,6 +150,7 @@ return [
         /*
          * Package Service Providers...
          */
+        Nathanmac\Utilities\Parser\ParserServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -159,6 +160,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        App\Providers\ViewComposerServiceProvider::class,
+        App\Providers\ValidatorServiceProvider::class,
 
     ],
 
@@ -208,6 +211,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+        'Parser' => Nathanmac\Utilities\Parser\Facades\Parser::class,
 
     ],
 
