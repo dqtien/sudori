@@ -369,7 +369,7 @@ return [
             ],
 
             'schemes' => [
-                // 'https:',
+                'http: https:',
             ],
 
             'self' => true,
@@ -378,7 +378,7 @@ return [
 
             'unsafe-eval' => true,
 
-            'strict-dynamic' => false,
+            'strict-dynamic' => true,
 
             'unsafe-hashed-attributes' => false,
 
@@ -406,7 +406,7 @@ return [
 
             'self' => true,
 
-            'unsafe-inline' => true,
+            'unsafe-inline' => false,
 
             'add-generated-nonce' => false,
         ],
@@ -418,11 +418,11 @@ return [
         ],
 
         'default-src' => [
-            'self' => true,
+            //
         ],
 
         'base-uri' => [
-            'self' => true,
+            //
         ],
 
         'connect-src' => [
