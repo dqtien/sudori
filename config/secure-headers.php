@@ -378,7 +378,7 @@ return [
 
             'unsafe-eval' => true,
 
-            'strict-dynamic' => true,
+            'strict-dynamic' => false,
 
             'unsafe-hashed-attributes' => false,
 
@@ -391,9 +391,9 @@ return [
             ],
 
             'hashes' => [
-                // 'sha256' => [
-                //     'hash-value',
-                // ],
+                'sha256' => [
+                    'biLFinpqYMtWHmXfkA1BPeCY0/fNt46SAZ+BBk5YUog=',
+                ],
             ],
 
             'nonces' => [
@@ -401,7 +401,7 @@ return [
             ],
 
             'schemes' => [
-                // 'https:',
+                'http: https:',
             ],
 
             'self' => true,
