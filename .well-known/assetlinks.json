@@ -1,0 +1,15 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls",
+            "delegate_permission/common.get_login_creds"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.sudori.app",
+            "sha256_cert_fingerprints": [
+                "1F:37:27:0D:64:44:CE:90:88:6F:17:5C:F4:05:B4:59:18:F4:E9:A9:5B:20:93:65:0E:59:CD:28:DD:E0:D5:74"
+            ]
+        }
+    }
+]
