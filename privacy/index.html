@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Chính sách bảo mật – Sudori.vn</title>
+        <meta name="description" content="Chính sách bảo mật của Sudori.vn: dữ liệu nào được thu thập, dùng vào việc gì, chia sẻ với ai và cách bạn kiểm soát dữ liệu của mình.">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/css/site.css">
+    </head>
+
+    <body>
+        <header class="site-header">
+            <nav class="navbar navbar-light container">
+                <a class="navbar-brand" href="/">Sudori.vn</a>
+                <a class="btn btn-brand btn-sm" href="https://news.sudori.vn">Mở Sudori.vn</a>
+            </nav>
+        </header>
+
+        <main class="container policy">
+            <h1>Chính sách bảo mật</h1>
+            <p class="updated">Cập nhật lần cuối: 30/10/2026</p>
+            <p class="lang-switch"><a href="#en">English version below</a></p>
+
+            <p>
+                Chính sách này giải thích Sudori.vn (website <a href="https://sudori.vn">sudori.vn</a>, các trang con
+                như news.sudori.vn và ứng dụng Android “Sudori”, gọi chung là “Sudori.vn” hoặc “chúng tôi”) thu thập
+                dữ liệu gì, dùng vào việc gì, chia sẻ với ai và bạn có những quyền gì đối với dữ liệu của mình.
+            </p>
+
+            <h2>1. Dữ liệu chúng tôi thu thập</h2>
+
+            <h3>1.1. Thông tin tài khoản</h3>
+            <ul>
+                <li>Tên hiển thị, địa chỉ email, ảnh đại diện.</li>
+                <li>Mật khẩu (chỉ lưu dạng đã băm, không ai đọc được mật khẩu gốc).</li>
+                <li>Thông tin bảo mật bạn tự bật: xác thực hai lớp (2FA), passkey (chỉ lưu khoá công khai).</li>
+            </ul>
+
+            <h3>1.2. Dữ liệu từ tài khoản Google khi bạn “Đăng nhập bằng Google”</h3>
+            <p>
+                Chúng tôi chỉ xin các quyền cơ bản <code>openid</code>, <code>email</code>, <code>profile</code> và chỉ nhận:
+                mã định danh tài khoản Google, tên, địa chỉ email và ảnh đại diện. Các thông tin này dùng để tạo tài khoản
+                Sudori.vn và đăng nhập cho bạn. Chúng tôi <strong>không</strong> truy cập Gmail, Google Drive, danh bạ,
+                lịch hay bất kỳ dữ liệu nào khác trong tài khoản Google.
+            </p>
+
+            <h3>1.3. Dữ liệu YouTube (chỉ khi bạn chủ động kết nối YouTube)</h3>
+            <p>Tính năng “YouTube” là tuỳ chọn. Khi bạn bấm kết nối, chúng tôi xin:</p>
+            <ul>
+                <li>
+                    <code>https://www.googleapis.com/auth/youtube.readonly</code> – để đọc <strong>danh sách kênh bạn đăng ký</strong>
+                    (mã kênh, tên kênh, ảnh kênh). Từ danh sách này, Sudori.vn hiển thị video mới của các kênh đó
+                    (lấy từ nguồn công khai của YouTube), cho phép bạn đánh dấu yêu thích, nhận thông báo tập mới và gom video
+                    thành bộ sưu tập.
+                </li>
+                <li>
+                    <code>https://www.googleapis.com/auth/youtube</code> – <strong>chỉ xin khi bạn bật</strong> “đồng bộ bộ sưu tập
+                    sang playlist YouTube”. Quyền này chỉ được dùng để tạo playlist và thêm/bớt video trong playlist tương ứng với
+                    bộ sưu tập bạn đã chọn. Chúng tôi không đăng video, không bình luận, không xoá hay sửa nội dung nào khác trên
+                    kênh của bạn.
+                </li>
+            </ul>
+            <p>
+                Chúng tôi lưu mã truy cập (access token / refresh token) do Google cấp để đồng bộ danh sách kênh và playlist.
+                Bạn có thể bấm “Ngắt kết nối” trong Sudori.vn bất cứ lúc nào: chúng tôi sẽ thu hồi token với Google và xoá
+                ngay token cùng danh sách kênh đã đăng ký khỏi hệ thống. Bạn cũng có thể thu hồi quyền tại
+                <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">trang quyền truy cập của tài khoản Google</a>.
+            </p>
+            <p>
+                Sudori.vn sử dụng YouTube API Services. Khi dùng tính năng này, bạn đồng thời đồng ý với
+                <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">Điều khoản dịch vụ của YouTube</a> và
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Chính sách quyền riêng tư của Google</a>.
+            </p>
+
+            <h3>1.4. Nội dung và hoạt động của bạn</h3>
+            <ul>
+                <li>Bài viết đã lưu, bình luận, lượt thích, lịch sử đọc/nghe.</li>
+                <li>Danh sách bạn bè, lời mời kết bạn, tin nhắn bạn gửi và nhận.</li>
+                <li>Địa điểm bạn tự lưu và lộ trình bạn tìm trong tính năng bản đồ trạm sạc (toạ độ, tên địa điểm). Chúng tôi không theo dõi vị trí của bạn ở chế độ nền.</li>
+                <li>Cài đặt thông báo và các tuỳ chọn khác.</li>
+            </ul>
+
+            <h3>1.5. Dữ liệu kỹ thuật</h3>
+            <ul>
+                <li>Mã thiết bị và mã nhận thông báo đẩy (push token) để gửi thông báo tới đúng thiết bị.</li>
+                <li>Địa chỉ IP, loại trình duyệt/thiết bị, thời gian đăng nhập – dùng cho bảo mật (phát hiện đăng nhập bất thường) và xử lý sự cố.</li>
+                <li>Cookie cần thiết để duy trì phiên đăng nhập và bảo vệ chống giả mạo yêu cầu (CSRF). Chúng tôi không dùng cookie quảng cáo.</li>
+            </ul>
+
+            <h2>2. Chúng tôi dùng dữ liệu vào việc gì</h2>
+            <ul>
+                <li>Tạo, đăng nhập và bảo vệ tài khoản của bạn.</li>
+                <li>Cung cấp các tính năng bạn sử dụng: đọc/nghe tin, lưu bài, bình luận, bạn bè, tin nhắn, YouTube, bản đồ trạm sạc.</li>
+                <li>Gửi thông báo bạn đã bật (tin nhắn mới, lời mời kết bạn, video/tập mới…) và email cần thiết về tài khoản (xác nhận, đặt lại mật khẩu, yêu cầu xoá tài khoản).</li>
+                <li>Bảo mật, chống lạm dụng và khắc phục lỗi.</li>
+            </ul>
+            <p>Chúng tôi <strong>không bán</strong> dữ liệu cá nhân, <strong>không dùng</strong> dữ liệu của bạn cho quảng cáo và không dùng dữ liệu từ Google/YouTube để huấn luyện mô hình AI.</p>
+
+            <h3>Cam kết đối với dữ liệu người dùng từ Google</h3>
+            <p>
+                Việc Sudori.vn sử dụng và chuyển giao thông tin nhận được từ Google API cho bất kỳ ứng dụng nào khác tuân thủ
+                <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>,
+                bao gồm các yêu cầu Limited Use. Cụ thể: dữ liệu từ Google chỉ được dùng để cung cấp và cải thiện các tính năng
+                hiển thị cho bạn như mô tả ở trên; không chuyển cho bên thứ ba (trừ khi cần để vận hành tính năng, theo yêu cầu
+                pháp luật, hoặc khi bạn đồng ý); không dùng cho quảng cáo; và không ai trong đội ngũ đọc dữ liệu này, trừ khi
+                có sự đồng ý của bạn, để xử lý sự cố bảo mật, hoặc theo yêu cầu pháp luật.
+            </p>
+
+            <h2>3. Chia sẻ dữ liệu</h2>
+            <p>Chúng tôi chỉ chia sẻ dữ liệu với các bên cần thiết để vận hành dịch vụ:</p>
+            <ul>
+                <li><strong>Google</strong>: đăng nhập bằng Google, YouTube Data API, Firebase Cloud Messaging (gửi thông báo đẩy), Google Text-to-Speech (chỉ gửi nội dung bài viết, không gửi dữ liệu cá nhân).</li>
+                <li><strong>Dịch vụ chuyển văn bản thành giọng nói khác</strong> (ví dụ Zalo AI): chỉ nhận nội dung bài viết công khai.</li>
+                <li><strong>Dịch vụ bản đồ OpenStreetMap</strong>: nhận từ khoá tìm kiếm địa điểm hoặc toạ độ khi bạn tìm địa điểm/lộ trình, không kèm thông tin tài khoản.</li>
+                <li><strong>Nhà cung cấp máy chủ</strong> lưu trữ hệ thống của Sudori.vn.</li>
+                <li><strong>Cơ quan có thẩm quyền</strong> khi pháp luật Việt Nam yêu cầu.</li>
+            </ul>
+            <p>Những người dùng khác chỉ thấy thông tin bạn chủ động công khai, như tên hiển thị, ảnh đại diện và bình luận.</p>
+
+            <h2>4. Lưu trữ và bảo mật</h2>
+            <ul>
+                <li>Dữ liệu được truyền qua HTTPS và lưu trên máy chủ của Sudori.vn. Mật khẩu và mã khôi phục được băm; token truy cập có thời hạn và có cơ chế thu hồi.</li>
+                <li>Dữ liệu được giữ trong thời gian tài khoản còn hoạt động. Token YouTube và danh sách kênh bị xoá ngay khi bạn ngắt kết nối.</li>
+                <li>Khi bạn yêu cầu xoá tài khoản, tài khoản bị khoá và sẽ bị xoá vĩnh viễn sau <strong>30 ngày</strong> (trong thời gian này bạn có thể huỷ yêu cầu). Bản sao lưu được xoay vòng và xoá theo chu kỳ.</li>
+            </ul>
+
+            <h2>5. Quyền của bạn</h2>
+            <ul>
+                <li><strong>Xem và sửa</strong> thông tin tài khoản trong trang Cài đặt.</li>
+                <li><strong>Tải dữ liệu</strong>: dùng chức năng “Tải dữ liệu của bạn” trong Cài đặt để nhận toàn bộ dữ liệu tài khoản dưới dạng tệp JSON.</li>
+                <li><strong>Xoá tài khoản</strong>: dùng chức năng “Xoá tài khoản” trong Cài đặt (trên web hoặc ứng dụng), hoặc gửi email cho chúng tôi.</li>
+                <li><strong>Rút quyền truy cập Google/YouTube</strong>: ngắt kết nối trong Sudori.vn hoặc tại <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</li>
+                <li><strong>Tắt thông báo</strong> trong Cài đặt hoặc cài đặt của thiết bị.</li>
+            </ul>
+
+            <h2>6. Trẻ em</h2>
+            <p>Sudori.vn không dành cho trẻ em dưới 13 tuổi và không cố ý thu thập dữ liệu của trẻ em dưới 13 tuổi. Nếu bạn biết có trường hợp như vậy, vui lòng liên hệ để chúng tôi xoá.</p>
+
+            <h2>7. Thay đổi chính sách</h2>
+            <p>Khi chính sách thay đổi, chúng tôi cập nhật trang này và ngày “Cập nhật lần cuối”. Nếu thay đổi quan trọng, chúng tôi sẽ thông báo trong ứng dụng hoặc qua email.</p>
+
+            <h2>8. Liên hệ</h2>
+            <p>Mọi câu hỏi hoặc yêu cầu về dữ liệu cá nhân, vui lòng gửi email tới <a href="mailto:support@sudori.vn">support@sudori.vn</a>.</p>
+
+            <hr id="en">
+
+            <h1>Privacy Policy</h1>
+            <p class="updated">Last updated: October 30, 2026</p>
+
+            <p>
+                This policy explains what data Sudori.vn (the website <a href="https://sudori.vn">sudori.vn</a>, its subdomains
+                such as news.sudori.vn, and the “Sudori” Android app; together “Sudori.vn”, “we”) collects, how it is used,
+                who it is shared with, and the choices you have.
+            </p>
+
+            <h2>1. Data we collect</h2>
+
+            <h3>1.1. Account information</h3>
+            <ul>
+                <li>Display name, email address, profile picture.</li>
+                <li>Password (stored only as a hash).</li>
+                <li>Security settings you enable: two-factor authentication, passkeys (public keys only).</li>
+            </ul>
+
+            <h3>1.2. Google account data when you “Sign in with Google”</h3>
+            <p>
+                We only request the basic <code>openid</code>, <code>email</code> and <code>profile</code> scopes and receive your
+                Google account ID, name, email address and profile picture. They are used solely to create your Sudori.vn account and
+                sign you in. We do <strong>not</strong> access your Gmail, Drive, contacts, calendar or any other Google data.
+            </p>
+
+            <h3>1.3. YouTube data (only if you choose to connect YouTube)</h3>
+            <p>The YouTube feature is optional. When you connect it we request:</p>
+            <ul>
+                <li>
+                    <code>https://www.googleapis.com/auth/youtube.readonly</code> – to read <strong>the list of channels you are subscribed to</strong>
+                    (channel ID, title, thumbnail). Sudori.vn uses it to show the latest videos of those channels (from YouTube's public feeds),
+                    and lets you favorite videos, get notified of new episodes and organize videos into collections.
+                </li>
+                <li>
+                    <code>https://www.googleapis.com/auth/youtube</code> – <strong>requested only when you turn on</strong> “sync a collection to a
+                    YouTube playlist”. It is used only to create that playlist and add/remove videos so it matches the collection you chose.
+                    We never upload videos, post comments, or change or delete any other content on your channel.
+                </li>
+            </ul>
+            <p>
+                We store the OAuth access/refresh tokens issued by Google to sync your subscriptions and playlists. You can click
+                “Disconnect” in Sudori.vn at any time: we revoke the token with Google and immediately delete the tokens and your
+                subscription list. You can also revoke access at
+                <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">your Google Account permissions page</a>.
+            </p>
+            <p>
+                Sudori.vn uses YouTube API Services. By using this feature you agree to the
+                <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a> and the
+                <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.
+            </p>
+
+            <h3>1.4. Your content and activity</h3>
+            <ul>
+                <li>Bookmarked articles, comments, likes, reading/listening history.</li>
+                <li>Friends, friend requests, messages you send and receive.</li>
+                <li>Places you save and routes you search in the EV charging map (coordinates, place names). We do not track your location in the background.</li>
+                <li>Notification preferences and other settings.</li>
+            </ul>
+
+            <h3>1.5. Technical data</h3>
+            <ul>
+                <li>Device ID and push notification token, to deliver notifications to the right device.</li>
+                <li>IP address, browser/device type, sign-in times – for security (detecting suspicious sign-ins) and troubleshooting.</li>
+                <li>Cookies required for your sign-in session and CSRF protection. We do not use advertising cookies.</li>
+            </ul>
+
+            <h2>2. How we use data</h2>
+            <ul>
+                <li>To create, sign in to and protect your account.</li>
+                <li>To provide the features you use: reading/listening to news, bookmarks, comments, friends, messages, YouTube, EV charging map.</li>
+                <li>To send the notifications you enabled and essential account emails (verification, password reset, account deletion).</li>
+                <li>For security, abuse prevention and fixing bugs.</li>
+            </ul>
+            <p>We <strong>do not sell</strong> personal data, <strong>do not use</strong> it for advertising, and do not use Google/YouTube data to train AI models.</p>
+
+            <h3>Google user data – Limited Use disclosure</h3>
+            <p>
+                Sudori.vn's use and transfer to any other app of information received from Google APIs will adhere to the
+                <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>,
+                including the Limited Use requirements. Google user data is only used to provide or improve the user-facing features
+                described above; it is not transferred to third parties except as necessary to provide those features, to comply with
+                law, or with your consent; it is not used for advertising; and no human reads it unless you consent, it is needed for
+                security purposes, or it is required by law.
+            </p>
+
+            <h2>3. Sharing</h2>
+            <p>We only share data with parties needed to run the service:</p>
+            <ul>
+                <li><strong>Google</strong>: Sign in with Google, YouTube Data API, Firebase Cloud Messaging (push notifications), Google Text-to-Speech (article text only, no personal data).</li>
+                <li><strong>Other text-to-speech providers</strong> (e.g. Zalo AI): public article text only.</li>
+                <li><strong>OpenStreetMap-based map services</strong>: the place search query or coordinates when you search places/routes, without account information.</li>
+                <li><strong>Our hosting provider</strong>, which runs Sudori.vn's servers.</li>
+                <li><strong>Authorities</strong> when required by Vietnamese law.</li>
+            </ul>
+            <p>Other users only see what you choose to make public, such as your display name, profile picture and comments.</p>
+
+            <h2>4. Storage and security</h2>
+            <ul>
+                <li>Data is transmitted over HTTPS and stored on Sudori.vn's servers. Passwords and recovery codes are hashed; access tokens expire and can be revoked.</li>
+                <li>Data is kept while your account is active. YouTube tokens and subscription lists are deleted as soon as you disconnect.</li>
+                <li>When you request account deletion, the account is locked and permanently deleted after <strong>30 days</strong> (you can cancel during that period). Backups are rotated and expire on a regular schedule.</li>
+            </ul>
+
+            <h2>5. Your rights</h2>
+            <ul>
+                <li><strong>View and edit</strong> your account information in Settings.</li>
+                <li><strong>Download your data</strong> as a JSON file with “Download your data” in Settings.</li>
+                <li><strong>Delete your account</strong> with “Delete account” in Settings (web or app), or by emailing us.</li>
+                <li><strong>Revoke Google/YouTube access</strong> by disconnecting in Sudori.vn or at <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</li>
+                <li><strong>Turn off notifications</strong> in Settings or your device settings.</li>
+            </ul>
+
+            <h2>6. Children</h2>
+            <p>Sudori.vn is not intended for children under 13 and we do not knowingly collect their data. If you believe we have, please contact us and we will delete it.</p>
+
+            <h2>7. Changes</h2>
+            <p>We will update this page and its “Last updated” date when the policy changes, and notify you in the app or by email for significant changes.</p>
+
+            <h2>8. Contact</h2>
+            <p>For any privacy question or request, email <a href="mailto:support@sudori.vn">support@sudori.vn</a>.</p>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container d-sm-flex justify-content-between">
+                <div class="mb-2 mb-sm-0">
+                    <a href="/">Trang chủ</a>
+                    <a href="/privacy/">Chính sách bảo mật</a>
+                    <a href="/terms/">Điều khoản sử dụng</a>
+                </div>
+                <div>© 2026 Sudori.vn</div>
+            </div>
+        </footer>
+    </body>
+
+</html>
